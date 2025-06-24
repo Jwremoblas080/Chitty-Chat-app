@@ -26,7 +26,7 @@ function Chat() {
       if (user) {
         setCurrentUser(user);
       } else {
-        navigate('/login');
+        navigate('/');
       }
     });
     return () => unsubscribe();
