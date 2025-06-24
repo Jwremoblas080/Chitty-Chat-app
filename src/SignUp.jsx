@@ -94,7 +94,7 @@ return (
       <p className="mt-6 text-center text-sm text-gray-300">
         Already have an account?{' '}
         <span
-          onClick={() => navigate('/login')}
+          onClick={() => navigate('/')}
           className="text-green-400 cursor-pointer hover:underline"
         >
           Login
