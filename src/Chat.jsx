@@ -93,7 +93,7 @@ function Chat() {
       if (result.isConfirmed) {
         signOut(auth).then(() => {
           Swal.fire('Logged Out', 'You have been logged out.', 'success');
-          navigate('/login');
+          navigate('/');
         });
       }
     });
