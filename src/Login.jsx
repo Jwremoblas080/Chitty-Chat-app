@@ -46,7 +46,7 @@ function Login() {
 
     {/* Glassmorphism Login Card */}
     <div className="z-10 bg-white/10 backdrop-blur-xl border border-white/10 text-white p-10 rounded-2xl shadow-2xl w-full max-w-md mx-4 animate-fade-in">
-      <h2 className="text-4xl font-bold text-center mb-6 drop-shadow">Login hello world</h2>
+      <h2 className="text-4xl font-bold text-center mb-6 drop-shadow">Login</h2>
 
       <form onSubmit={handleSubmit} className="space-y-5">
         <input
